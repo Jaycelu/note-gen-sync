@@ -20,14 +20,14 @@
 
 ## 主要内容概述
 
-### 1. Infrastructure（基础设施）
+### 1. Infrastructure（基础架构）
 
 * 云平台部署
 * 服务器架构设计
 * 自动化运维工具与脚本
 * 相关技术标准和最佳实践
 
-### 2. NetDevOps（网络开发与运维）
+### 2. NetDevOps（网络自动化运维）
 
 * 网络架构设计
 * 网络自动化脚本（如Ansible、shell、python）
