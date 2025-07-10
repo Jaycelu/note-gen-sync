@@ -116,7 +116,7 @@ pyinstaller==5.13.0
 * **窗口**：600x450 像素，淡蓝色背景 (`#E0F7FA`)。
 * **输入框**：
   * CSV 文件路径（默认 `Sinfo.csv`）。
-  * 日志服务器地址（默认 `10.40.29.201`）。
+  * 日志服务器地址（默认 `10.10.10.10`）。
   * 最大线程数（默认 `10`）。
 * **按钮**：
   * “浏览”：选择 CSV 文件。
@@ -232,8 +232,8 @@ def resource_path(relative_path):
 2. 准备 `Sinfo.csv`，格式如下：
    ```
    Type,IP,ssh_type,User,Passwd
-   huawei,10.128.254.1,huawei,admin,Tianhe@123
-   huawei,10.128.254.2,huawei,admin,Tianhe@123
+   huawei,10.10.10.1,huawei,admin,admin@123
+   huawei,10.10.10.2,huawei,admin,admin@123
    ...
    ```
 3. 双击 EXE，打开 GUI：
