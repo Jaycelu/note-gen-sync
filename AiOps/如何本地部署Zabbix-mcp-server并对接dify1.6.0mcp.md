@@ -413,4 +413,4 @@ sudo systemctl status zabbix-mcp-server
 * 外部访问失败（通过绑定 `0.0.0.0` 和开放防火墙解决）。
 * 服务进程不可见（通过 `nohup` 和 `ps aux | grep python` 解决）。
 
-在 Dify 1.6.0 中，你可以根据提供的框架添加 MCP 服务，调用 Zabbix 的功能（如 `host_get`、`problem_get` 等）。以上就是我的全部实践经验，后续对于该功能也会进行深入研究，比如dify的双向mcp服务以及zabbix-mcp-server的深层次利用！
+在 Dify 1.6.0 中，你可以根据提供的框架添加 MCP 服务，调用 Zabbix 的功能（如 `host_get`、`problem_get` 等）。以上就是我的全部实践经验，后续对于该功能也会进行深入研究，比如dify的双向mcp服务以及zabbix-mcp-server的深层次利用，欢迎留言交流和学习！
