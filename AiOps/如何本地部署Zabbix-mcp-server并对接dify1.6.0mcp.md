@@ -1,6 +1,6 @@
 # 如何本地部署 Zabbix MCP Server 并对接dify1.6mcp服务
 
-以下是基于mcp.so上zabbix官方的mcp-server，结合我的实际本地部署实践，总结了本地部署 Zabbix MCP Server 并对接最新dify1.6.0mcp服务的清晰步骤。这些步骤涵盖了环境准备、依赖安装、配置、启动，以及将服务设置为 HTTP 协议并实现开机自启动的方法。
+本文是基于mcp.so上zabbix官方的mcp-server，结合我的实际本地部署实践，总结了本地部署 Zabbix MCP Server 并对接最新dify1.6.0mcp服务的清晰步骤。这些步骤涵盖了环境准备、依赖安装、配置、启动，以及将服务设置为 HTTP 协议并实现开机自启动的方法。
 
 ---
 
